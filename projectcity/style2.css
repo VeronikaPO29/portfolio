@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+.food{
+    font-size: 29px;
+}
+.city{
+    font-size: 29px;
+}
+figure{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure a{
+    width: 180px;
+    text-align: center;
+}
+figure img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+footer{
+    background-color: #75A7E2;
+    padding: 10px 0;
+    text-align:center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
